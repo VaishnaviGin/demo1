@@ -3,6 +3,7 @@ public class Employee {
 
 	int id;
 	String name;
+	String Address;
 
 	public Employee(int id, String name) {
 
@@ -35,6 +36,18 @@ public class Employee {
 
 		this.name = name;
 
+	}
+	
+	
+
+
+	public String getAddress() {
+		return Address;
+	}
+
+
+	public void setAddress(String address) {
+		Address = address;
 	}
 
 
